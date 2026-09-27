@@ -1,245 +1,311 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contacto | Veterinaria La Mary</title>
-<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/index.css">
     <link rel="stylesheet" href="estilos/basico.css">
     <link rel="stylesheet" href="estilos/base.css">
-    <link rel="stylesheet" href="estilos/contactos.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <title>contactos</title>
+    
+    <title>La Mary - Contacto</title>
+     
 </head>
-
 <body>
-
-    <!-- HEADER RESPONSIVO CON BOOTSTRAP -->
-<header style="background-color: var(--color-violeta-oscuro3, #2f0f70);">
-    <nav class="navbar navbar-expand-lg navbar-dark p-3 container-fluid"> <!-- Logo y Marca --> <a href="index.html"
-            class="navbar-brand d-flex align-items-center gap-3 text-white text-decoration-none"> <img
-                src="assets/imagen/logo1.png" alt="Logo La Mary" width="50" height="50"
-                class="img-fluid object-fit-contain">
-            <div>
-                <h1 class="h4 mb-0 fw-bold">La Mary</h1>
-                <h2 class="h6 mb-0 text-uppercase opacity-75">Clínica Veterinaria</h2>
+    <header>
+        <div class="marca"> <img src="assets/imagen/logo1.png" alt="Logo La Mary" class="icono-logo" width="60">
+            <div class="texto-marca">
+                <h1>La Mary</h1>
+                <h2>Clínica Veterinaria</h2>
             </div>
-        </a> <!-- Boton Menu Hamburguesa --> <button class="navbar-toggler border-white" type="button"
-            data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion"
-            aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <!-- Menú Colapsable -->
-        <div class="collapse navbar-collapse justify-content-end" id="menuNavegacion">
-            <ul class="navbar-nav gap-2 gap-lg-3 text-center mt-3 mt-lg-0">
-                <li class="nav-item"> <a href="index.html" class="nav-link text-white">Inicio</a> </li>
-                <li class="nav-item"> <a href="institucional.html" class="nav-link text-white">Institucional</a> </li>
-                <li class="nav-item"> <a href="contactos.html" class="nav-link text-white">Contacto</a> </li>
-            </ul>
         </div>
-    </nav>
-</header>
-
-
-
-    <!-- Principal -->
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+                <li><a href="contactos.html" class="activo">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header> <!-- CONTENIDO PRINCIPAL -->
     <main class="pagina-contacto">
-
-        <!-- información de contacto -->
-        <section class="contacto-seccion-principal">
-            <div class="contacto-info">
-                <h1>Contacto</h1>
-
-                <h2 class="subtitulo-contacto">
-                    Comunicate con nuestro equipo médico y administrativo
-                    a través de nuestros canales oficiales:
-                </h2>
+        <section class="container py-5">
+            <div class="row align-items-center g-4"></div>
+            <article class="col-12 col-md-6">
+            </article>
+                     
+                <div class="row g-4">
+                    <article class="col-md-6">
+                       <h3>Paciente Nuevo</h3>
+                       <p>Regístrate como paciente nuevo y recibe un 10% de descuento en tu primera consulta.</p>
+                    </article>
+                    <article class="col-md-4">
+                       <h3>Consulta Online</h3>
+                       <p>Agenda una consulta virtual con uno de nuestros veterinarios especialistas.</p>
+                    </article>
+                    <article class="col-md-4">
+                       <h3>Recordatorio de Vacunación</h3>
+                       <p>Recibe recordatorios automáticos para las vacunas de tu mascota.</p>
+                    </article>
+                </div>
+        <section class="container py-5" > <!-- Columna Izquierda: Información -->>
+            <div class="row align-items-center g-4"></div>
+               <article class="col-12 col-md-6">
+                <span class="contacto-seccion-principal"></span>
+               </article> 
+                <div class="contacto-info">
+                    <h1>Contacto</h1>
+                    <h2>Comunicate con nuestro equipo médico y administrativo a través de nuestros canales oficiales:</h2>
+                </div>
 
                 <div class="datos-contacto">
-                    <p>
-                        <img src="assets/imagen/whatsapp_10.png"
-                             alt="WhatsApp"
-                             class="icono-contacto">
-
+                        <p><img src="assets/imagen/whatsapp_10.png" alt="WhatsApp" class="icono-contacto">
                         <strong>WhatsApp:</strong> 3454056923
-                    </p>
-                    <p>
-                        <strong>✉ Email:</strong>
-                        <a href="mailto:veterinarialamary@gob.ar">
-                            veterinarialamary@gob.ar
-                        </a>
-                    </p>
-                    <p>
-                        <strong>📍 Dirección:</strong>
-                        Gdor. Gral. Balcarce 327, Concordia, Entre Ríos
-                    </p>
+                        </p>
+                        <p>
+                            <strong> ✉ Email:</strong> <a href="mailto:veterinarialamary@gob.ar">veterinarialamary@gob.ar</a>
+                        </p>
+                        <p>
+                            <strong> 📍 Dirección:</strong> Gdor. Gral. Balcarce 327, Concordia, Entre Ríos
+                        </p>
                 </div>
-            </div>
-
-
-            <!-- imagen -->
-            <article class="col-12 col-md-6 contacto-imagen"> 
-                <img src="assets/imagen/imagen09.jfif"
-                     alt="Imagen de contacto">
+                
             </article>
+
+
+                <article class="col-12 col-md-6 contacto-imagen">
+                
+                    <img src="assets/imagen/imagen09.jfif" alt="Imagen de contacto" class="img-fluid rounded-5 shadow">
+
+                </article>
+
             </div>
-            
-            
+
         </section>
-        <section class="container-fluid py-4 px-5"> 
+
+
+        <section class="container-fluid py-4 px-5">
+
             <div class="row justify-content-center">
-                <article class="col-12 col-md-10 col-lg-8 formulario-turno">
-                   <h2 class="text-center mb-4">   Solicitar un turno  </h2>
-                 <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">  Nombre y apellido </label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresá tu nombre y apellido" required>      
-                    </div>
-                    <div class="mb-3">
-                        <label for="telefono" class="form-label">  Telefono </label>
-                        <input type="number" class="form-control" id="telefono" name="telefono" placeholder="Ingresá tu numero de telefono" required>      
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">  Email </label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Ingresá tu correo electronico" required>      
-                    </div>
-                    <div class="mb-3">
-                        <label for="mascota" class="form-label">  Nombre de tu mascota </label>
-                        <input type="text" class="form-control" id="mascota" name="mascota" placeholder="Ingresá el nombre de tu mascota" required>      
-                    </div>
-                    <div class="mb-3">
-                        <label for="especie" class="form-label">  Especie de tu Mascota </label>
-                        <select class="form-select" id="especie" name="especie" required>
 
-                                <option value="" selected disabled>
-                                    Seleccioná una opción
-                                </option>
+                <article class="col-12 col-md-6 col-lg-8 formulario-turno">
 
-                                <option value="perro">Perro</option>
-                                <option value="gato">Gato</option>
-                                <option value="conejo">Conejo</option>
-                                <option value="hamster">Hamster</option>
+                    
+                    <h2 class="text-center mb-6">
+                        Solicitar un turno
+                    </h2>
 
-                            </select>
-                    </div>
+                    <form>
+
+                        <div class="mb-2">
+
+                            <label for="nombre" class="form-label"> Nombre y apellido  </label>
+
+                            
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresá tu nombre y apellido" required>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <label for="telefono" class="form-label"> Teléfono </label>
+
+                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ingresá tu teléfono" required>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <label for="email" class="form-label">   Email  </label>
+
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Ingresá tu email" required>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <label for="mascota" class="form-label">
+                                Nombre de la mascota
+                            </label>
+
+                            <input type="text" class="form-control" id="mascota" name="mascota" placeholder="Ingresá el nombre de tu mascota" required>
+
+                        </div>
+
+
+                        <div class="mb-4">
+
+                            <label for="especie" class="form-label"> Especie: </label>
+                            <select name="especie" id="especie" class="form-select">
+                            <option value=""> Seleccione una especie </option>
+                            <option value="perro"> Perro </option>
+                            <option value="gato"> Gato </option>
+                            <option value="conejo"> Conejo </option>
+                            <option value="hamster"> Hámster</option>
+                            
+                        </div>
+
                     <div class="row">
-                        <div class="col-12 col-md-3 mb-3">
-                              <label for="hora" class="form-label">
-                                    Horario para tu Turno
-                                </label>
+
+                        <div class="col-12 col-form-label-lg col-md-6 ">  
+                                <label for="hora" class="form-label"> Hora preferida </label>
 
                                 <input type="time" class="form-control" id="hora" name="hora" required>
 
                         </div>
-                        <div class="col-12 col-md-3 mb-3">
-                              <label for="fecha" class="form-label">
-                                    Fecha del Turno
-                                </label>
+                        <div class="col-12 col-md-6 mb-6">
+                        
 
-                                <input type="date" class="form-control" id="fecha" name="fecha" required>
+                                <label for="fecha" class="form-label"> Fecha preferida</label>
 
-                        </div>
-                        <div class="mb-xl-4">
+                                <input type="date" class="form-control" id="fecha" name="fecha"  required>
 
-                            <label for="motivo" class="form-label">
-                                Motivo del turno
-                            </label>
-
-                            <textarea class="form-control" id="motivo" name="motivo" align-content-md-center placeholder="Contanos brevemente el motivo de la consulta" required>
-                                
-                            </textarea>
-
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-outline-dark px-4">
-                                Solicitar turno
-                            </button>
                         </div>
 
                     </div>
-                 </form>
+
+
+                        <div class="col-12 col-md-6 mb-3">
+
+                         <label for="motivo" class="form-label"> Motivo del turno </label>
+
+                         <textarea class="form-control" id="motivo" name="motivo" row-cols-md-6 placeholder="Contanos brevemente el motivo de la consulta"required></textarea>
+
+                        </div>
+
+
+                        
+                        <div class="text-center">
+                         <button type="submit" class="btn boton-turno px-4"> Solicitar turno </button>
+
+                        </div>
+
+                    </form>
+
                 </article>
+                      <!--TABLA DE HORARIOS DE ATENCIÓN-->
+        <section>
+            <article class="col-12 col-lg-6 tabla">
 
+                    <h2>Horarios de atención</h2>
+
+                   
+                    <div class="table-responsive">
+
+                        
+                        <table class="table">
+
+                            <thead>
+                                <tr>
+                                    <th>Día</th>
+                                    <th>Mañana</th>
+                                    <th>Tarde</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>Lunes a viernes</td>
+                                    <td>08:00 a 12:00</td>
+                                    <td>16:00 a 20:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sábados</td>
+                                    <td>09:00 a 12:00</td>
+                                    <td>Cerrado</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Urgencias</td>
+                                    <td>24hs</td>
+                                    <td>24hs</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </article>
         </section>
-
-
-        <!--ubicación-->
-        <section class="ubicacion">
-
-            <article class="mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2291410887108!2d-58.0235525!3d-31.3859962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade816b7f57551%3A0x95270adb0f221cf8!2sGdor.%20Gral.%20Balcarce%20327%2C%20E3202%20Concordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </article>
-
-
-            <!-- TABLA DE HORARIOS -->
-            <article class="tabla">
-
-                <h2>Horarios de atención</h2>
-
-                <table>
-
-                    <thead>
-                        <tr>
-                            <th>Día</th>
-                            <th>Mañana</th>
-                            <th>Tarde</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-
-                        <tr>
-                            <td>Lunes a viernes</td>
-                            <td>08:00 a 12:00</td>
-                            <td>16:00 a 20:00</td>
-                        </tr>
-
-                        <tr>
-                            <td>Sábados</td>
-                            <td>09:00 a 12:00</td>
-                            <td>Cerrado</td>
-                        </tr>
-
-                        <tr>
-                            <td>Urgencias</td>
-                            <td>24hs</td>
-                            <td>24hs</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </article>
-
-        </section>
-
     </main>
+    <footer class="p-4 text-white mt-auto"
+            style="background-color: var(--color-violeta-oscuro3, #2f0f70);">
+
+        <div class="container-fluid d-flex flex-column flex-md-row
+                    justify-content-between align-items-center gap-3">
+
+        <div class="text-center text-md-start">
+
+                <span class="fs-4 fw-bold d-block">
+                    La Mary
+                </span>
+
+                <p class="fst-italic my-1 opacity-75">
+                    "Ciencia, medicina y cariño para asegurar la vida de tu compañero"
+                </p>
+
+                <p class="small mb-0 opacity-75">
+                    Gdor. Gral. Balcarce 327, Concordia, Entre Ríos.<br>
+                    Lunes a sábado. Urgencias 24hs
+                </p>
+
+            </div>
 
 
- <!-- FOOTER -->
-<footer class="p-4 text-white mt-auto" style="background-color: var(--color-violeta-oscuro3, #2f0f70);">
-    <div class="container-fluid d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-        <!-- Marca, Lema y Dirección -->
-        <div class="text-center text-md-start"> <span class="fs-4 fw-bold d-block">La Mary</span>
-            <p class="fst-italic my-1 opacity-75"> "Ciencia, medicina y cariño para asegurar la vida de tu compañero"
-            </p>
-            <p class="small mb-0 opacity-75"> Gdor. Gral. Balcarce 327, Concordia, Entre Ríos.<br> Lunes a sábado.
-                Urgencias 24hs </p>
-        </div> <!-- Redes Sociales -->
-        <div class="text-center text-md-end"> <span class="fw-bold d-block mb-2">Seguinos</span>
-            <div class="d-flex gap-3 justify-content-center justify-content-md-end flex-wrap"> <a href="#"
-                    target="_blank" class="text-white text-decoration-none link-light">Instagram</a> <a href="#"
-                    target="_blank" class="text-white text-decoration-none link-light">Facebook</a> <a href="#"
-                    target="_blank" class="text-white text-decoration-none link-light">WhatsApp</a> <a href="#"
-                    target="_blank" class="text-white text-decoration-none link-light">TikTok</a> </div>
+            <!-- Redes -->
+            <div class="text-center text-md-end">
+
+                <span class="fw-bold d-block mb-2">
+                    Seguinos
+                </span>
+
+                <div class="d-flex gap-3 justify-content-center
+                            justify-content-md-end flex-wrap">
+
+                    <a href="#"
+                       target="_blank"
+                       class="text-white text-decoration-none link-light">
+                        Instagram
+                    </a>
+
+                    <a href="#"
+                       target="_blank"
+                       class="text-white text-decoration-none link-light">
+                        Facebook
+                    </a>
+
+                    <a href="#"
+                       target="_blank"
+                       class="text-white text-decoration-none link-light">
+                        WhatsApp
+                    </a>
+
+                    <a href="#"
+                       target="_blank"
+                       class="text-white text-decoration-none link-light">
+                        TikTok
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
-    </div>
-</footer>
 
-   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </footer>
+
+
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
